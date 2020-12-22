@@ -1,0 +1,34 @@
+Algoritmo Votacion
+	i=0
+	Mientras i<= 9 Hacer
+		Escribir "Digite su voto"
+		Leer v
+		Si (v=1) Entonces
+			k=k+1
+		FinSi
+		Si (v=2) Entonces
+			l=l+1
+		FinSi
+		Si (v=3) Entonces
+			m=m+1
+		FinSi
+		i=i+1
+		total=k+l+m
+	FinMientras
+	Escribir "Numeros de votos del candidato 1:",k
+	Escribir "Numeros de votos del candidato 2:",l
+	Escribir "Numeros de votos del candidato 3:",m
+	Escribir "El total de los votos es:" ,total
+	Si(k>=l y k>=m) entonces
+		Escribir "El candidato ganador es:",k
+	FinSi
+	Si (l>=k y l>=m) entonces
+		Escribir"El candidato ganador es:",l
+	FinSi
+	Si (m>=k y m>=l) entonces
+		Escribir"El candidato ganador es:",m
+	FinSi
+	Escribir "Nombre: Carlos Javier Valerio Cabrera"
+	Escribir "Matricula:19-MIIN-1-047"
+	Escribir"Seccion:0542"
+FinAlgoritmo
